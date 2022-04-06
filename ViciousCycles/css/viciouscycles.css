@@ -1,0 +1,81 @@
+/*Style rules for the body*/
+body {
+    background-color: #fbfafa;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*style rules for the header*/
+header {
+    font-size: 4em;
+    text-align: center;
+    color: #010b5b;
+    font-family: avenir, tahoma, sans-serif;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #fbfafa;
+}
+
+header img {
+    margin: 0 auto;
+}
+
+#hero img {
+    margin: 0 auto;
+}
+
+/*style rules for the navigation*/
+
+nav {
+    width: 90%;
+    float: right;
+    margin: 3em 3em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    font-family: avenir, tahoma, sans-serif;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.75em;
+    font-family: avenir, tahoma, sans-serif;
+}
+
+nav li a {
+    display: block;
+    color: #ff0000;
+    text-align: center;
+    padding: 0.5em;
+    text-decoration: none;
+    font-family: avenir, tahoma, sans-serif;
+}
+
+/*styles rules for main*/
+main {
+    clear: left;
+    font-family: avenir, tahoma, sans-serif;
+    text-align: center;
+}
+
+#form {
+    margin-top: 2%;
+    background-color: #fbfafa;
+    padding: 2%;
+}
+
+/*style rules for footer*/
+
+footer {
+    font-size: 0.75em;
+    font-family: avenir, tahoma, sans-serif;
+    text-align: center;
+    padding: 0 1em;
+}
